@@ -1,0 +1,128 @@
+html, body, div { padding: 0px; margin: 0px; }
+h1, h2, h3, h4, h5 { 
+    font-family: 'Dosis', sans-serif;
+    text-align: center; 
+    margin: 12px; 
+}
+h1 { font-size: 64px; }
+h2 { font-size: 48px; }
+h3 { font-size: 32px; }
+h4 { font-size: 24px; }
+h5 { font-size: 16px; }
+
+body {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, 
+                                       rgba(4,127,199,1) 20%, 
+                                       rgba(178,227,255,1) 50%, 
+                                       rgba(4,127,199,1) 80%, 
+                                       rgba(2,0,36,1) 100%);
+}
+
+.app {
+    margin: 0px auto;
+    width: 100vw;
+    max-width: 1100px;
+    min-height: 100vh;
+    background-color: #efefef;
+
+    display: grid;
+    grid-template-areas:
+        "header header"
+        "content navbar"
+        "footer footer";
+    grid-template-columns: 1fr 200px;
+    grid-template-rows: auto 1fr auto;
+    grid-gap: 8px;
+}
+
+.header  { grid-area: header; }
+.content { grid-area: content; }
+.navbar  { grid-area: navbar; }
+.footer  { grid-area: footer; }
+
+/* Generic classes */
+
+.expanded { border-left: 8px solid black; }
+.collapsed { display: none; }
+.expanded, .collapsed { overflow-y: hidden; }
+
+.plus:after { content: '+'; }
+.minus:after { content: '-'; }
+.plus:after, .minus:after { float: right; }
+
+.even { background-color: #efefef; }
+.odd  { background-color: #ffffff; }
+
+.hover:hover { background-color: #ccccff; }
+
+/* Navigation bar styling */
+.navbar-sticky {
+    position: sticky;
+    margin: 32px 0px;
+    padding: 0;
+    top: 32px;
+    right: 0;
+    overflow-x: hidden;
+    list-style-position: inside;
+    box-shadow: 4px 4px 8px rgba(0,0,0,0.5);
+}
+
+.navbar-sticky li {
+    margin: 0;
+    padding: 8px;
+    font-weight: bold;
+    cursor: default;
+}
+
+/* Step styling */
+
+.steps {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.step {
+    box-shadow: 4px 4px 8px rgba(0,0,0,0.5);
+    width: 100%;
+    margin: 32px 16px;
+    background-color: #efefef;
+}
+
+.step-header, .step-expand-button {
+    width: 100%;
+    border: none;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.step-header {
+    padding: 16px;
+    margin: 0px 0px 16px 0px;
+}
+
+.step-text-simple, .step-text-complex {
+    text-align: center;
+    font-size: 14px;
+    margin: 0px;
+    padding: 8px;
+}
+
+.step-text-simple {
+    font-size: 1.5em;
+}
+
+.step-text-complex {
+    font-size: 1em;
+}
+
+.step-expand-button {
+    padding: 12px;
+    margin: 16px 0px 0px 0px;
+    color: rgba(0,0,0,0.5);
+    background-color: #dfdfdf;
+}
+
