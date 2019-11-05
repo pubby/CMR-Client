@@ -100,8 +100,17 @@ body {
 }
 
 .step-header {
+    position: relative;
     padding: 16px;
     margin: 0px 0px 16px 0px;
+}
+
+.step-valid-status {
+    position: absolute;
+    top: 50%;
+    right: 16px;
+    transform: translateY(-50%);
+    font-size: 1.5em;
 }
 
 .step-text-simple, .step-text-complex {
