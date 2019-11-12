@@ -5,7 +5,7 @@ import NavBar from './components/displays/sideNav';
 
 const Steps = require("./data/config");
 
-const App = () => {
+export default function App() {
   return (
     <div className='app'>
       <div className='header'>
@@ -16,11 +16,11 @@ const App = () => {
         <div className='steps'>
           { Steps.steps.map((data, index) => {
             return (
-                <Step 
-                  key={ index.toString() } 
-                  stepNumber={ index+1 } 
-                  { ...data } 
-                />
+              <Step 
+                key={ index.toString() } 
+                stepNumber={ index+1 } 
+                { ...data } 
+              />
             );
           }) }
         </div>
@@ -46,6 +46,3 @@ const App = () => {
     </div>
   );
 }
-
-
-export default App;
