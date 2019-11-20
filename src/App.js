@@ -3,9 +3,9 @@ import React from 'react';
 import Step from './components/displays/step';
 import NavBar from './components/displays/sideNav';
 
-const steps = require("./data/config");
+const Steps = require("./data/config");
 
-const App = () => {
+export default function App() {
   return (
     <div className='app'>
       <div className='header'>
@@ -14,13 +14,13 @@ const App = () => {
 
       <div className='content'>
         <div className='steps'>
-          { steps.map((data, index) => {
+          { Steps.steps.map((data, index) => {
             return (
-                <Step 
-                  key={ index.toString() } 
-                  stepNumber={ index+1 } 
-                  { ...data } 
-                />
+              <Step 
+                key={ index.toString() } 
+                stepNumber={ index+1 } 
+                { ...data } 
+              />
             );
           }) }
         </div>
@@ -28,7 +28,7 @@ const App = () => {
 
       <div className='navbar'>
         <ol className='navbar-sticky'>
-          { steps.map((data, index) => {
+          { Steps.steps.map((data, index) => {
             return (
               <NavBar 
                 key={ index.toString() } 
@@ -46,6 +46,3 @@ const App = () => {
     </div>
   );
 }
-
-
-export default App;
