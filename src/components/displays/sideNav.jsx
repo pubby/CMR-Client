@@ -4,13 +4,14 @@ import { evenOddClass, stepIDName } from '../../css.js'
 export default function NavBar(props) {
   function doScroll() {
     document.getElementById(stepIDName(props.stepNumber)).scrollIntoView({
-        behavior: 'smooth'
+        behavior: 'smooth',
+        block: 'center'
     });
   }
 
   return (
     <li 
-      className={`hover ${evenOddClass(props.stepNumber)}`}
+      className="hover"
       onClick={doScroll}
     >
       {props.navName}

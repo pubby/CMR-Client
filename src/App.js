@@ -41,7 +41,7 @@ export default function App() {
       </div>
 
       <div className='footer'>
-          <h2>A footer will go here!</h2>
+          <div className='footer-content'>footer placeholder</div>
       </div>
     </div>
   );
