@@ -1,37 +1,37 @@
 export const steps = [
   { 
     navName: 'Why?',
-    headerText: 'Why should I remove my record?',
+    headerText: 'Why Should I Remove My Record?',
     bodyText: 'Simple explanation.',
   },
   { 
     navName: 'Eligibility',
-    headerText: 'Can my record be expunged?',
+    headerText: 'Can My Record Be Expunged?',
     bodyText: 'Simple explanation.',
   },
   { 
     navName: 'Requirements',
-    headerText: 'What will I need?',
+    headerText: 'What Will I Need?',
     bodyText: 'Personal information will go here.',
   },
   { 
-    navName: 'People you need',
-    headerText: 'Who can help me?',
+    navName: 'People You Need',
+    headerText: 'Who Can Help Me?',
     bodyText: 'Identify the defendents. Mention lawyers.',
   },
   { 
-    navName: 'Submit paperwork',
-    headerText: 'Send in the paperwork.',
+    navName: 'Submit Paperwork',
+    headerText: 'Send in the Paperwork.',
     bodyText: '',
   },
   { 
-    navName: 'Notify parties',
-    headerText: 'Notifes interested parties.',
+    navName: 'Notify Parties',
+    headerText: 'Notifes Interested Parties.',
     bodyText: '',
   },
   { 
-    navName: 'Receive results',
-    headerText: 'Your record will be removed soon.',
+    navName: 'Receive Results',
+    headerText: 'Your Record Will Be Removed Soon.',
     bodyText: '',
   },
 ];
