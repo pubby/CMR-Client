@@ -16,14 +16,6 @@ h5 { font-size: 16px; }
     font-family: 'Roboto', sans-serif;
 }
 
-/*body {
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, 
-                                       rgba(4,127,199,1) 20%, 
-                                       rgba(178,227,255,1) 50%, 
-                                       rgba(4,127,199,1) 80%, 
-                                       rgba(2,0,36,1) 100%);
-}*/
-
 body{
     background-color: #ffffff;
 }
@@ -48,6 +40,7 @@ body{
 
 .footer  { 
     background-color: rgb(14, 33, 44);
+    width:110%;
     color: #ffffff;
     padding: 16px;
 }
@@ -65,12 +58,13 @@ body{
 .even { background-color: #e2e9f5; }
 .odd  { background-color: #ffffff; }
 
-.hover:hover { /*background-color: #ccccff80; */
+.hover:hover { 
+    /*background-color: #ccccff80; */
     outline: 1px solid black;
 }
 
 /* Navigation bar styling */
-.navbar-sticky {
+.navbar-sticky{
     position: fixed;
     margin: 32px 0px;
     padding: 0;
@@ -78,8 +72,10 @@ body{
     right: 0;
     min-width: 180px;
     overflow-x: visible;
-    list-style-position: inside;
+    list-style-position: inside; 
 }
+
+
 
 .navbar-sticky li {
     margin: 0;
@@ -133,3 +129,9 @@ body{
     font-family: Roboto;
 }
 
+/*
+@media (max-width: 400px) {
+    .navbar-sticky { display: none; }
+    .navbar-sticky li {display: none;}
+    .navbar {display: none;}
+}*/
