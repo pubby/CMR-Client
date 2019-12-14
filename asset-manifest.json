@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/CMR-Client/static/css/main.af00bd43.chunk.css",
+    "main.js": "/CMR-Client/static/js/main.7435fa2a.chunk.js",
+    "main.js.map": "/CMR-Client/static/js/main.7435fa2a.chunk.js.map",
+    "runtime-main.js": "/CMR-Client/static/js/runtime-main.6530780d.js",
+    "runtime-main.js.map": "/CMR-Client/static/js/runtime-main.6530780d.js.map",
+    "static/js/2.b98f4124.chunk.js": "/CMR-Client/static/js/2.b98f4124.chunk.js",
+    "static/js/2.b98f4124.chunk.js.map": "/CMR-Client/static/js/2.b98f4124.chunk.js.map",
+    "index.html": "/CMR-Client/index.html",
+    "precache-manifest.60cc39040c08a503a1861e4abf1a6ab3.js": "/CMR-Client/precache-manifest.60cc39040c08a503a1861e4abf1a6ab3.js",
+    "service-worker.js": "/CMR-Client/service-worker.js",
+    "static/css/main.af00bd43.chunk.css.map": "/CMR-Client/static/css/main.af00bd43.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6530780d.js",
+    "static/js/2.b98f4124.chunk.js",
+    "static/css/main.af00bd43.chunk.css",
+    "static/js/main.7435fa2a.chunk.js"
+  ]
+}
