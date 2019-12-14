@@ -75,13 +75,20 @@ body{
     list-style-position: inside; 
 }
 
-
-
 .navbar-sticky li {
     margin: 0;
     padding: 8px;
     cursor: default;
     font-size: 18px;
+}
+
+.navbar-in-view {
+    opacity: 1.0;
+    font-weight: bold;
+}
+
+.navbar-not-in-view {
+    opacity: 0.6;
 }
 
 /* Step styling */
