@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/CMR-Client/precache-manifest.60cc39040c08a503a1861e4abf1a6ab3.js"
+  "/CMR-Client/precache-manifest.02015817f771ab61279062155a335dde.js"
 );
 
 self.addEventListener('message', (event) => {
